@@ -14,7 +14,7 @@
         <java.version>11</java.version>
         <lombok.version>1.18.10</lombok.version>
         <scala.version>2.13</scala.version>
-        <akka.version>2.6.3</akka.version>
+        <akka.version>2.6.4</akka.version>
         <junit.version>4.13</junit.version>
         <logack-classic.version>1.2.3</logack-classic.version>
     </properties>
