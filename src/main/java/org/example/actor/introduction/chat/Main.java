@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Main {
 
-    public static Behavior<Void> create() {
+    private static Behavior<Void> create() {
         return Behaviors.setup(context -> {
             ActorRef<RoomCommand> chatRoom = context.spawn(ChatRoom.create(), "chatRoom");
             ActorRef<SessionEvent> gabbler = context.spawn(Gabbler.create(), "gabbler");
